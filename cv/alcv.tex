@@ -1,0 +1,176 @@
+% !TEX TS-program = lualatex
+% !TEX encoding = UTF-8 Unicode
+
+% mwe-lualatex.cls
+%
+% Copyright 2017 Olivier Pieters
+%
+% This is a MWE of the `limecv' class that showcases its features
+% and sane packages to load. This MWE assumes that the LuaLaTeX
+% compiler is used. It might be necessary to manually specify the
+% font path for FontAwesome if recent symbols are used.
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License, either version 1.3
+% of this license or (at your option) any later version.
+% The latest version of this license is in
+%   http://www.latex-project.org/lppl.txt
+% and version 1.3 or later is part of all distributions of LaTeX
+% version 2005/12/01 or later.
+%
+% This work has the LPPL maintenance status `maintained'.
+%
+% The Current Maintainer of this work is Olivier Pieters.
+% Contact the maintainer at: me (at) olivierpieters (dot) be.
+
+
+\documentclass[a4paper,hidelinks]{blue_cv}
+
+  % Define Font
+  \usepackage[sfdefault,condensed]{roboto}
+  \usepackage[T1]{fontenc}
+
+
+  % Defaults used in template design.
+  \usepackage[margin=\cvMargin,noheadfoot]{geometry}
+
+  % For cover letter.
+  \usepackage{lipsum}
+
+  \begin{document}
+
+  % Design of side bar.
+  \begin{cvSidebar}
+    \cvID{Alejandro}{Jiménez Rico}{}{Data Scientist}
+
+    \begin{cvProfile}
+      Physicist forging a new path through Data Science.
+    \end{cvProfile}
+
+    \begin{cvContact}
+      \cvContactAddress{London}
+      \cvContactEmail{mailto:aljrico@gmail.com}{aljrico@gmail.com}
+      \cvContactPhone{+34 664 146 397}
+      \cvContactWebsite{https://aljrico.github.io}{aljrico.github.io}
+      \cvContactLinkedin{https://www.linkedin.com/in/aljrico/}{linkedin.com/in/aljrico}
+      % \cvContactTwitter{https://twitter.com/johndoe}{@johndoe}
+      % \cvContactKeybase{https://keybase.io/johndoe}{\texttt{AAAA 5555 BBBB FFFF}}
+    \end{cvContact}
+
+    \begin{cvLanguages}
+      \cvLanguage{Spanish (native)}{5}
+      \cvLanguage{Catalan (native)}{5}
+      \cvLanguage{English (ILR4)}{4}
+    \end{cvLanguages}
+
+    \begin{cvInterests}[short]
+      \cvInterestsProfessional
+      \vspace{1mm}
+      \cvInterest{\faAreaChart}{Data Science}
+      \cvInterest{\faBarChart}{Data Analysis}
+      \cvInterest{\faCode}{Machine Learning}
+      \cvInterest{\faCloud}{Big Data}
+      \cvInterest{\faLineChart}{Quantitative Finance}
+
+      % \vspace{4mm}
+
+      \cvInterestsPersonal
+      \vspace{1mm}
+      \cvInterest{\faMusic}{Music}
+      \cvInterest{\faGamepad}{Gaming}
+      \cvInterest{\faFilm}{Cinematography}
+      \cvInterest{\faPaintBrush}{Graphical Design}
+      \cvInterest{\faMortarBoard}{Science}
+
+    \end{cvInterests}
+
+    % \begin{cvProjects}
+    %   \cvProject[image=limecv-icon,width=1cm,link=https://github.com/opieters/limecv]{\texttt{limecv}}{A \LaTeX\ CV document class.}
+    % \end{cvProjects}
+
+  \end{cvSidebar}
+
+  \begin{cvMainContent}
+
+    \begin{cvEducation}
+      \cvItem{\textbf{PhD in Actuarial Mathematics}\\
+      Cass Business School, London. 2018 -- Present\\}
+      \cvItem{\textbf{Master of Science in Data Science \& Mathematical Modelling}\\
+      Universitat Autònoma de Barcelona, Barcelona. 2017 -- 2018\\}
+      \cvItem{\textbf{Master of Science in Financial Mathematics}\\
+      Universitat Autònoma de Barcelona, Barcelona. 2016 -- 2017\\}
+      \cvItem{\textbf{Bachelor of Science in Physics}\\
+      Universitat Autònoma de Barcelona, Barcelona. 2012 -- 2016\\}
+    \end{cvEducation}
+
+    \begin{cvSkills}
+      \cvSkillTwo{5}{R}{4}{\LaTeX}
+      \cvSkillTwo{4}{SQL}{3}{Python}
+      \cvSkillTwo{4}{VBA}{3}{Spark}
+      \cvSkillOne{3}{C, C++}
+    \end{cvSkills}
+
+    \begin{cvExperience}
+      \cvItem{\textbf{PhD Researcher}\\
+              \textsc{\selectfont Cass Business School}, London. March 2018 -- Present\\
+              };
+      \cvItem{\textbf{Data Scientist}\\
+              \textsc{Socialpoint}, Barcelona. February 2018 -- July 2018\\
+              \vspace{1mm}
+              \begin{itemize}
+              	\item Created and presented models for time series forecasting.
+              	\item Applied A/B testing and decision tree analysis to identify causes for lower-than-usual retention.
+              	\item Created automatic dashboards that tracked many models' accuracies in a daily basis.
+              	\item Conducted thorough exploratory analysis identifying patterns and seeking useful features for Machine Learning models.
+              	\item All of the above was automated and beatifully wrapped up in pretty R Shiny Apps for more straightforward use.
+              \end{itemize}};
+      \cvItem{\textbf{Risk Analyst}\\
+              \textsc{Caixa d'Enginyers}, Barcelona. February 2017 -- July 2017\\
+                            \vspace{1mm}
+              In this experience in banking industry, I finally had the opportunity to my math and coding skills in real-world situations. During my time in this company, I managed to:
+              \begin{itemize}
+              	\item Apply mathematical methods in assessing risk indicators.
+              	\item Handle large databases with limited computational resources.
+              	\item Implement automatic scripts in order to deliver periodic reports faster and more accurately on tight deadlines.
+              \end{itemize}};
+       \cvItem{\textbf{Research Assistant}\\
+              \textsc{CSIC}, Barcelona. February 2016 -- September 2016\\
+                            \vspace{1mm}
+Participation in the 'CONECTA' campaing, a research project focused in the study of the evolution of little crustaceans grub in the Mediterranean Sea. I have also helped in the developement of simulation models involving the dynamic processes of internal waves over continental slopes. \\ Working with such unbelievable professionals helped me to understand the importance of being detail-oriented and rigorous with your projects. Furthermore, working in my own project told me how to pull the chestnuts out of the fire by myself in many situations; developing the tough skill of getting things done.};
+    \end{cvExperience}
+
+    % \begin{cvReferences}
+    %   \cvAddReference{%
+    %     name=Arturo Valdivia,
+    %     company=SocialPoint,
+    %     position=Data Science Lead,
+    %     address line 1=arturo@valdivia.xyz,
+    %     mobile phone=+34 666 67 45 73}% <<-- important!
+    % \end{cvReferences}
+
+  \end{cvMainContent}
+
+  % \clearpage
+
+  % \begin{cvCoverLetter}
+
+  % \cvBeneficiary{%
+  %   name=Jane Smith,
+  %   position=Position,
+  %   company=Company,
+  %   address line 1=Address line 1,
+  %   address line 2=Address line 2}
+
+  % Dear Miss.\ Smith
+
+  % \vspace{\baselineskip}
+
+  % \lipsum[1-3]
+
+  % \vspace{\cvMargin}
+
+  % \cvFullName
+
+  % \end{cvCoverLetter}
+
+  \end{document}
