@@ -1,14 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.6.24)  3 OCT 2018 14:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.6.24)  3 OCT 2018 09:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**alcv.tex
-(./alcv.tex
+**grey_cv.tex
+(./grey_cv.tex
 LaTeX2e <2018-04-01> patch level 2
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
-(./blue_template.cls
+(./grey_template.cls
 
-LaTeX Warning: You have requested document class `blue_template',
+LaTeX Warning: You have requested document class `grey_template',
                but the document class provides `limecv'.
 
 Document Class: limecv 2017/09/12 v0.1.3 limecv Document class for CVs.
@@ -403,17 +403,17 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \cvComma with sig. '' on line 61.
+. Defining command \cvComma with sig. '' on line 62.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \@IfNoValueOrEmptyTF with sig. 'mmm' on line 67.
+. Defining command \@IfNoValueOrEmptyTF with sig. 'mmm' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \globalcolor with sig. 'm' on line 74.
+. Defining command \globalcolor with sig. 'm' on line 75.
 .................................................
 
 (/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
@@ -700,7 +700,7 @@ File: tikzlibrarymatrix.code.tex 2013/07/12 v3.0.1a (rcs-revision 1.4)
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \cv@loadFonts with sig. '' on line 193.
+. Defining command \cv@loadFonts with sig. '' on line 194.
 .................................................
  (/usr/share/texmf-dist/tex/latex/fontawesome/fontawesome.sty
 Package: fontawesome 2016/05/15 v4.6.3.1 font awesome icons
@@ -710,22 +710,22 @@ Package: fontawesome 2016/05/15 v4.6.3.1 font awesome icons
 .................................................
 . LaTeX info: "xparse/redefine-command"
 . 
-. Redefining command \familydefault with sig. '' on line 201.
+. Redefining command \familydefault with sig. '' on line 202.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \kright with sig. 'm' on line 210.
+. Defining command \kright with sig. 'm' on line 211.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \kleft with sig. 'm' on line 211.
+. Defining command \kleft with sig. 'm' on line 212.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \extract with sig. 'mm' on line 217.
+. Defining command \extract with sig. 'mm' on line 218.
 .................................................
 \cvColSep=\skip55
 \cvNodeSep=\skip56
@@ -761,35 +761,35 @@ Package: fontawesome 2016/05/15 v4.6.3.1 font awesome icons
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \cvSection with sig. 'm' on line 283.
+. Defining command \cvSection with sig. 'm' on line 284.
 .................................................
 \my@repeat@count=\count279
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \cvSkill with sig. 'm' on line 294.
+. Defining command \cvSkill with sig. 'm' on line 295.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \cvhrulefill with sig. '' on line 296.
+. Defining command \cvhrulefill with sig. '' on line 297.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \ruleline with sig. 'm' on line 299.
+. Defining command \ruleline with sig. 'm' on line 300.
 .................................................
 \c@cv@titlePrev=\count280
 \c@cv@titleNext=\count281
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \cv@Title with sig. 'mm' on line 357.
+. Defining command \cv@Title with sig. 'mm' on line 358.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \cv@EndSectionDraw with sig. '' on line 359.
+. Defining command \cv@EndSectionDraw with sig. '' on line 360.
 .................................................
 \c@cv@itemPrev=\count282
 \c@cv@itemNext=\count283
@@ -797,177 +797,177 @@ Package: fontawesome 2016/05/15 v4.6.3.1 font awesome icons
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \cv@definecvItem with sig. '' on line 415.
+. Defining command \cv@definecvItem with sig. '' on line 416.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \cv@setEnglish with sig. '' on line 432.
+. Defining command \cv@setEnglish with sig. '' on line 433.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \cv@setDutch with sig. '' on line 445.
+. Defining command \cv@setDutch with sig. '' on line 446.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \cvSetLanguage with sig. 'm' on line 456.
+. Defining command \cvSetLanguage with sig. 'm' on line 457.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \cv@skillsTable with sig. '' on line 460.
+. Defining command \cv@skillsTable with sig. '' on line 461.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \cvSkillTwo with sig. 'mmmm' on line 470.
+. Defining command \cvSkillTwo with sig. 'mmmm' on line 471.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \cvSkillOne with sig. 'mm' on line 478.
+. Defining command \cvSkillOne with sig. 'mm' on line 479.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'cvMainContent' with sig. '' on line 490.
+. Defining environment 'cvMainContent' with sig. '' on line 491.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'cvMainContent*' with sig. '' on line 504.
+. Defining environment 'cvMainContent*' with sig. '' on line 505.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'cvEducation' with sig. '' on line 515.
+. Defining environment 'cvEducation' with sig. '' on line 516.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'cvExperience' with sig. '' on line 526.
+. Defining environment 'cvExperience' with sig. '' on line 527.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'cvSkills' with sig. '' on line 541.
+. Defining environment 'cvSkills' with sig. '' on line 542.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'cvReferences' with sig. '' on line 554.
+. Defining environment 'cvReferences' with sig. '' on line 555.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \cvAddReference with sig. 'sm' on line 679.
+. Defining command \cvAddReference with sig. 'sm' on line 680.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'cvSidebar' with sig. '' on line 693.
+. Defining environment 'cvSidebar' with sig. '' on line 694.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'cvSidear*' with sig. '' on line 707.
+. Defining environment 'cvSidear*' with sig. '' on line 708.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'cvProfile' with sig. '' on line 712.
+. Defining environment 'cvProfile' with sig. '' on line 713.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \cv@ContactTemplate with sig. 'mm' on line 719.
+. Defining command \cv@ContactTemplate with sig. 'mm' on line 720.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \cv@ContactTemplateLink with sig. 'mm' on line 727.
+. Defining command \cv@ContactTemplateLink with sig. 'mm' on line 728.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'cvContact' with sig. '' on line 756.
+. Defining environment 'cvContact' with sig. '' on line 757.
 .................................................
 \c@cv@cvInterestCounter=\count285
 \c@cv@cvInterestCounterPrev=\count286
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \cv@TypesetTableRows with sig. '' on line 765.
+. Defining command \cv@TypesetTableRows with sig. '' on line 766.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \cv@interestClose with sig. '' on line 781.
+. Defining command \cv@interestClose with sig. '' on line 782.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \cv@interestOpen with sig. '' on line 794.
+. Defining command \cv@interestOpen with sig. '' on line 795.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \cv@definecv@interestSection with sig. '' on line 805.
+. Defining command \cv@definecv@interestSection with sig. '' on line 806.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \cv@definecvInterestLong with sig. '' on line 829.
+. Defining command \cv@definecvInterestLong with sig. '' on line 830.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \cv@definecvInterestShort with sig. '' on line 839.
+. Defining command \cv@definecvInterestShort with sig. '' on line 840.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'cvInterests' with sig. 'o' on line 869.
+. Defining environment 'cvInterests' with sig. 'o' on line 870.
 .................................................
 \c@cv@projectCurrent=\count287
 \c@cv@projectPrevious=\count288
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \cv@definecvProject with sig. '' on line 949.
+. Defining command \cv@definecvProject with sig. '' on line 950.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'cvProjects' with sig. '' on line 958.
+. Defining environment 'cvProjects' with sig. '' on line 959.
 .................................................
 \c@cv@languages=\count289
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'cvLanguages' with sig. '' on line 997.
+. Defining environment 'cvLanguages' with sig. '' on line 998.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \cv@definecvBeneficiary with sig. '' on line 1038.
+. Defining command \cv@definecvBeneficiary with sig. '' on line 1039.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \cv@definecvFullName with sig. '' on line 1044.
+. Defining command \cv@definecvFullName with sig. '' on line 1045.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'cvCoverLetter' with sig. '' on line 1094.
+. Defining environment 'cvCoverLetter' with sig. '' on line 1095.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \cvID with sig. 'mmmm' on line 1131.
+. Defining command \cvID with sig. 'mmmm' on line 1132.
 .................................................
 )
 (/usr/share/texmf-dist/tex/latex/roboto/roboto.sty
@@ -1177,8 +1177,8 @@ Package: geometry 2018/03/24 v5.7 Page Geometry
 (/usr/share/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count293
-) (./alcv.aux)
-\openout1 = `alcv.aux'.
+) (./grey_cv.aux)
+\openout1 = `grey_cv.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
@@ -1255,10 +1255,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 40.
 LaTeX Info: Redefining \pageref on input line 40.
 LaTeX Info: Redefining \nameref on input line 40.
- (./alcv.out)
-(./alcv.out)
+ (./grey_cv.out) (./grey_cv.out)
 \@outlinefile=\write5
-\openout5 = `alcv.out'.
+\openout5 = `grey_cv.out'.
 
  ABD: EveryShipout initializing macros
 \c@mv@tabular=\count301
@@ -1413,37 +1412,37 @@ LaTeX Font Info:    Font shape `T1/RobotoCondensed-LF/m/sc' will be
 (Font)              scaled to size 10.0pt on input line 116.
 Missing character: There is no ; in font nullfont!
 LaTeX Font Info:    Try loading font information for TS1+RobotoCondensed-LF on 
-input line 127.
+input line 126.
 
 (/usr/share/texmf-dist/tex/latex/roboto/TS1RobotoCondensed-LF.fd
 File: TS1RobotoCondensed-LF.fd 2015/09/15 (autoinst) Font definitions for TS1/R
 obotoCondensed-LF.
 )
 LaTeX Font Info:    Font shape `TS1/RobotoCondensed-LF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 127.
+(Font)              scaled to size 10.0pt on input line 126.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 182.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 182.
- (./alcv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 182.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 182.
-Package rerunfilecheck Info: File `alcv.out' has not changed.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 176.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 176.
+ (./grey_cv.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 176.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 176.
+Package rerunfilecheck Info: File `grey_cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 182.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 176.
  ) 
 Here is how much of TeX's memory you used:
- 28426 strings out of 492649
- 549614 string characters out of 6135778
- 709743 words of memory out of 5000000
- 31939 multiletter control sequences out of 15000+600000
+ 28427 strings out of 492649
+ 549665 string characters out of 6135778
+ 708509 words of memory out of 5000000
+ 31940 multiletter control sequences out of 15000+600000
  572181 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,17n,73p,10377b,1072s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,17n,73p,10380b,1072s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/roboto/rbto_bergpl.enc}{/usr/share/tex
 mf-dist/fonts/enc/dvips/roboto/rbto_v5svcm.enc}{/usr/share/texmf-dist/fonts/enc
 /dvips/roboto/rbto_idpkzy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontawesom
@@ -1453,7 +1452,7 @@ wesomeone.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo
 r/share/texmf-dist/fonts/type1/google/roboto/RobotoCondensed-Bold.pfb></usr/sha
 re/texmf-dist/fonts/type1/google/roboto/RobotoCondensed-Italic.pfb></usr/share/
 texmf-dist/fonts/type1/google/roboto/RobotoCondensed-Regular.pfb>
-Output written on alcv.pdf (1 page, 88108 bytes).
+Output written on grey_cv.pdf (1 page, 88233 bytes).
 PDF statistics:
  49 PDF objects out of 1000 (max. 8388607)
  41 compressed objects within 1 object stream

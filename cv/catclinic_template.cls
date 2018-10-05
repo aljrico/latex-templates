@@ -48,10 +48,10 @@
 \RequirePackage{parskip}
 \RequirePackage{xstring}
 \RequirePackage{xkeyval}
-\definecolor{mainBlue}{RGB}{74,105,120}
-\definecolor{mainBlueLight}{RGB}{210,220,225}
-\definecolor{cvRed}{HTML}{7f2d35}
-\definecolor{cvDark}{HTML}{2F3142}
+\definecolor{mainTurquoise}{RGB}{0,135,120}
+\definecolor{mainTurquoiseLight}{RGB}{235,248,245}
+\definecolor{cvRed}{RGB}{0,135,120}
+\definecolor{cvDark}{RGB}{0,135,120}
 \definecolor{cvAccent}{HTML}{474A65}
 \newcolumntype{L}[1]{>{\raggedright\let\newline\\%
 \arraybackslash\hspace{0pt}}m{#1}}
@@ -150,7 +150,7 @@
     minimum height=\cvProgressAreaHeight,
     rectangle,
     draw,
-    mainBlue,
+    mainTurquoise,
     progressArea
   },
   cv@progressBar/.style={%
@@ -158,7 +158,7 @@
     rectangle,
     draw,
     fill,
-    mainBlue,
+    mainTurquoise,
     anchor=west,
     progressBar
   },
@@ -293,7 +293,7 @@
     \my@repeat@count\m@ne}%
   \endgroup
 }
-\NewDocumentCommand{\cvhrulefill}{}{{\color{mainBlue}%
+\NewDocumentCommand{\cvhrulefill}{}{{\color{mainTurquoise}%
 \leavevmode\leaders\hrule height \cvSBSectionLineWidth\hfill\kern\z@}}
 \NewDocumentCommand{\ruleline}{m}{\par\noindent\raisebox{.6ex}{%
 \makebox[\linewidth]{\cvhrulefill\hspace{1ex}%
@@ -326,7 +326,7 @@
       (cv@title \the\value{cv@titleNext} dummy) {%
         \phantom{\cvSection{Education}}};
     \begin{scope}[on background layer]
-      \draw[line width=\cvTitleLineWidth,mainBlue]
+      \draw[line width=\cvTitleLineWidth,mainTurquoise]
         let \p1=(cv@title \the\value{cv@titleNext} %
                 dummy.south west),
             \p2=(current page.east) in
@@ -346,7 +346,7 @@
       (cv@title \the\value{cv@titleNext} dummy) {%
         \phantom{\cvSection{Education}}};
     \begin{scope}[on background layer]
-      \draw[line width=\cvTitleLineWidth,mainBlue]
+      \draw[line width=\cvTitleLineWidth,mainTurquoise]
         let \p1=(cv@title \the\value{cv@titleNext} %
                 dummy.south west),
             \p2=(current page.east) in
@@ -682,7 +682,7 @@
   \vspace*{\fill}
   \vspace*{-0.5\cvMargin}
   \begin{tikzpicture}[remember picture,overlay]
-    \fill[mainBlueLight] (current page.north west) rectangle %
+    \fill[mainTurquoiseLight] (current page.north west) rectangle %
       ++(\cvSideWidth+2\cvMargin,-\paperheight);
   \end{tikzpicture}%
   \begin{minipage}{\cvSideWidth}
@@ -696,7 +696,7 @@
   \vspace*{\fill}
   \vspace*{-0.5\cvMargin}
   \begin{tikzpicture}[remember picture,overlay]
-    \fill[mainBlueLight] (current page.north east) rectangle %
+    \fill[mainTurquoiseLight] (current page.north east) rectangle %
       ++(-\cvSideWidth-2\cvMargin,-\paperheight);
   \end{tikzpicture}%
   \begin{minipage}{\cvSideWidth}
@@ -799,7 +799,7 @@
     \ifcv@interestContent
       \vspace*{2\cvSectionSBSep}
     \fi
-    {\color{mainBlueLight}---} ##1 {\color{mainBlueLight}---}\\
+    {\color{mainTurquoiseLight}---} ##1 {\color{mainTurquoiseLight}---}\\
     \vspace*{\cvSectionSBSep}
     \cv@interestOpen
   }
@@ -1050,7 +1050,7 @@
       overlay,
       every node/.style={inner sep=0cm,outer sep=0cm}]
     \begin{scope}[on background layer]
-      \fill[mainBlueLight] (current page.north west) rectangle %
+      \fill[mainTurquoiseLight] (current page.north west) rectangle %
         ++(\paperwidth,-\cvCoverLetterHeight);
     \end{scope}
     \draw (current page.north east) %
@@ -1078,7 +1078,7 @@
     \y};
 
     \begin{scope}[on background layer]
-      \draw[line width=\cvCoverLetterLineWidth,mainBlue]
+      \draw[line width=\cvCoverLetterLineWidth,mainTurquoise]
          ($(cv cover letter name.south west)+(0,-\cvCoverLetterLineSpacing)$) to
          ($(cv cover letter name.south east)+(0,-\cvCoverLetterLineSpacing)$);
     \end{scope}

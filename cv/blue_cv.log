@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.6.24)  3 OCT 2018 14:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.6.24)  3 OCT 2018 14:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**alcv.tex
-(./alcv.tex
+**blue_cv.tex
+(./blue_cv.tex
 LaTeX2e <2018-04-01> patch level 2
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (./blue_template.cls
@@ -1177,8 +1177,8 @@ Package: geometry 2018/03/24 v5.7 Page Geometry
 (/usr/share/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count293
-) (./alcv.aux)
-\openout1 = `alcv.aux'.
+) (./blue_cv.aux)
+\openout1 = `blue_cv.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
@@ -1255,10 +1255,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 40.
 LaTeX Info: Redefining \pageref on input line 40.
 LaTeX Info: Redefining \nameref on input line 40.
- (./alcv.out)
-(./alcv.out)
+ (./blue_cv.out) (./blue_cv.out)
 \@outlinefile=\write5
-\openout5 = `alcv.out'.
+\openout5 = `blue_cv.out'.
 
  ABD: EveryShipout initializing macros
 \c@mv@tabular=\count301
@@ -1413,37 +1412,37 @@ LaTeX Font Info:    Font shape `T1/RobotoCondensed-LF/m/sc' will be
 (Font)              scaled to size 10.0pt on input line 116.
 Missing character: There is no ; in font nullfont!
 LaTeX Font Info:    Try loading font information for TS1+RobotoCondensed-LF on 
-input line 127.
+input line 126.
 
 (/usr/share/texmf-dist/tex/latex/roboto/TS1RobotoCondensed-LF.fd
 File: TS1RobotoCondensed-LF.fd 2015/09/15 (autoinst) Font definitions for TS1/R
 obotoCondensed-LF.
 )
 LaTeX Font Info:    Font shape `TS1/RobotoCondensed-LF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 127.
+(Font)              scaled to size 10.0pt on input line 126.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 182.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 182.
- (./alcv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 182.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 182.
-Package rerunfilecheck Info: File `alcv.out' has not changed.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 176.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 176.
+ (./blue_cv.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 176.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 176.
+Package rerunfilecheck Info: File `blue_cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 182.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 176.
  ) 
 Here is how much of TeX's memory you used:
  28426 strings out of 492649
- 549614 string characters out of 6135778
- 709743 words of memory out of 5000000
+ 549653 string characters out of 6135778
+ 708419 words of memory out of 5000000
  31939 multiletter control sequences out of 15000+600000
  572181 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,17n,73p,10377b,1072s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,17n,73p,10380b,1072s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/roboto/rbto_bergpl.enc}{/usr/share/tex
 mf-dist/fonts/enc/dvips/roboto/rbto_v5svcm.enc}{/usr/share/texmf-dist/fonts/enc
 /dvips/roboto/rbto_idpkzy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontawesom
@@ -1453,7 +1452,7 @@ wesomeone.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo
 r/share/texmf-dist/fonts/type1/google/roboto/RobotoCondensed-Bold.pfb></usr/sha
 re/texmf-dist/fonts/type1/google/roboto/RobotoCondensed-Italic.pfb></usr/share/
 texmf-dist/fonts/type1/google/roboto/RobotoCondensed-Regular.pfb>
-Output written on alcv.pdf (1 page, 88108 bytes).
+Output written on blue_cv.pdf (1 page, 88243 bytes).
 PDF statistics:
  49 PDF objects out of 1000 (max. 8388607)
  41 compressed objects within 1 object stream
